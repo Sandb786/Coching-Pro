@@ -1,0 +1,160 @@
+<html lang="en">
+
+<head>
+    <title>Payment</title>
+</head>
+<link rel="stylesheet" href="pay.css">
+<link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css" rel="stylesheet" />
+<link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/css/intlTelInput.min.css">
+
+<body>
+    <header>
+        <img src="Logo.png" alt="">
+    </header>
+
+    <main>
+
+        <div class="Pay-Detail">
+            <h3>Payment Details</h3>
+
+            <form action="">
+
+                <label>Email</label><br>
+                <div class="input-box"> <input type="email" placeholder="Example@gmail.com"></div><br>
+
+                <label>Phone number</label><br>
+                <div class="input-box">
+                    <p style="margin-bottom: 6.5%;"></p><input type="text" placeholder="Ex: 7432124321" id="phone"
+                        maxlength="10">
+                </div><br>
+
+
+
+                <label>Payment method</label><br>
+                <!-- This is card section -->
+                <div class="pymethod">
+                    <section class="Card">
+
+                        <div class="redio-btn">
+                            <input type="radio" name="s">
+                        </div>
+
+                        <div class="crimg">
+                            <img src="credit-card.png" alt="">
+                            <h5>Card</h5>
+                        </div>
+
+                    </section>
+
+                    <!-- This is UPI Section -->
+                    <section class="Card">
+
+                        <div class="redio-btn">
+                            <input type="radio" name="s">
+                        </div>
+
+                        <div class="crimg">
+                            <img src="upi.png" alt="">
+                            <h5>UPI</h5>
+                        </div>
+                    </section>
+                </div><br>
+
+                <label>card holder name</label><br>
+                <div class="input-box"> <input type="text" placeholder="Ex: sandeep mahawat"></div><br>
+
+                <label>Billing address</label><br>
+                <div class="input-box">
+                    <select name="cars" id="cars">
+                        <option value="">Select</option>
+                        <option value="India">India</option>
+                    </select>
+                </div><br>
+
+                <label>zip code</label>
+                <div class="input-box" style="width: 13%; margin-top: 0.5%;"> <input type="text"
+                        placeholder="Ex: 452010" style="margin-top: 4.5%;" maxlength="6"></div>
+
+                <div class="aling-city">
+                    <label>city</label>
+                    <div class="input-box" style="width: 17.6%; margin-top: -0.2%;"> <input type="text"
+                            placeholder="Ex: indore" style="margin-top: 4%;"></div><br>
+                </div>
+
+                <div class="chackbox">
+                    <h5><input type="checkbox"> Billing address same as shipping</h5>
+                </div>
+
+                <button type="submit" class="submit">Pay RS <span> 60,998.00</span></button>
+
+            </form>
+        </div>
+
+
+        <div class="You_Order">
+
+            <h3>Your Order</h3>
+
+
+
+            <div class="order_detail">
+                <img src="product.jpeg" alt="">
+                <h4>BIM Professional-</h4>
+                <h5>Architechture (Basic to Pro Leval)</h5>
+                <p>RS 29,999.00</p>
+
+            </div>
+
+            <div class="order_detail">
+
+                <img src="product.jpeg" alt="">
+                <h4>BIM Professional-</h4>
+                <h5>Architechture (Basic to Pro Leval)</h5>
+                <p>RS 29,999.00</p>
+
+            </div><br>
+
+            <div style="margin-left: 5%;">
+                <label> Discount Code</label><br>
+                <div class="input-box" style="width: 65%; height: 6%;">
+
+                    <img src="coupon.png" style="margin-top: 0.5%;">
+
+                    <input type="email" placeholder="Discount coupon" style="margin-top: -5.5%;
+                    margin-left: 10%;
+                    width:90%;
+                    border-left: 1px solid rgb(122, 118, 118);">
+                </div><br>
+
+
+                <div style="margin-top: -9.1%;
+                        margin-left: 58%;
+                        width: 30%;
+                        ">
+                    <a href="#"> <button type="submit" class="submit">Apply</button></a>
+                </div>
+                
+                <div class="line"></div>
+                
+                <p style="color: rgb(91, 93, 96);">Subtotal <span style="margin-left: 40%;"></span>RS 60998.00</p>
+                <p style="color: rgb(17, 17, 18); font-weight: bolder;">Total<span style="margin-left: 45%;"></span>RS 60998.00</p>
+            </div>
+        </div>
+
+
+    </main>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/js/intlTelInput.min.js"></script>
+    <script>
+        var input = document.querySelector("#phone");
+        var iti = window.intlTelInput(input, {
+            initialCountry: "in",
+            separateDialCode: true,
+            utilsScript: "https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/js/utils.js"
+        });
+    </script>
+
+</body>
+
+</html>

@@ -1,0 +1,211 @@
+body
+{
+    font-family: 'Poppins';
+    overflow-x: hidden;
+}
+
+
+header
+{
+    img
+    {
+        width: 13%;
+    }
+}
+.Pay-Detail
+{
+    margin-left: 8%;
+    width: 100%;
+    h3
+    {
+        font-size:150%;
+        font-weight:900;
+        margin-bottom: 1%;
+    }
+}
+
+
+form,.You_Order
+{
+    .input-box
+    {
+        width: 30%;
+        height: 5%;
+        border: 1px rgb(184, 180, 180) solid;
+        border-radius: 0.5rem;
+        margin-top: 0.5%;
+
+        input,select
+        {
+            width: 95%;
+           margin-left: 2.5%;
+           margin-top: 2%;
+           font-size: medium;
+           border: none;
+           outline: none;
+        }
+
+        /* India flag png */
+        img
+        {
+            margin-top: 2%;
+            margin-left: 2%;
+            width: 6%;
+        }
+        p
+        {
+           margin-left: 10%;
+           margin-top: -4.3%;
+           font-size: small;
+        }
+        
+    }
+    
+
+
+    .card
+    {
+        border: 1px solid rgb(164, 160, 160);
+        border-radius: 0.5rem;
+        width: 13.9%;
+        margin-right: 2%;
+        margin-top: 0.5%;
+
+        .redio-btn
+        {
+            margin-left: 85%;
+            margin-top: 5%;
+            border-radius:50%;  
+            accent-color: black;  
+        }
+
+    .crimg
+    {
+        margin-top: -5%;
+        margin-left: 6%;
+
+        img{
+           margin-bottom: -12%;
+            width: 10%;
+           
+        }
+        h5{margin-left: -1%; font-weight: bold;}
+    }
+
+
+    .zip-city
+    {
+      .city
+      {
+        margin-top: 30%;
+      }
+    }
+    }
+
+    .pymethod
+    {
+        display: flex;
+    }
+
+    .aling-city
+    {
+        margin-top: -4.2%;
+        margin-left: 15%;
+    }
+
+    .chackbox
+    {
+        margin-top: -1%;
+        accent-color:#111729;
+    }
+
+    .submit
+    {
+        width: 30%;
+        height: 6%;
+        border: 1px rgb(184, 180, 180) solid;
+        border-radius: 0.5rem;
+        background-color:#0f1525;
+        color: aliceblue;
+        font-weight: 600;
+        cursor: pointer;
+        margin-bottom: 5%;
+       
+
+    }
+
+    label
+    {
+        font-weight:bolder;
+        font-size: 95%;
+     
+    }
+}
+
+/* -----------------------------YOUR ORDER----------------------------- */
+
+.You_Order
+{
+    
+    width: 45%;
+    height: 80%;
+
+    margin-top: -51%;
+    margin-left: 50%;
+
+    h3
+    {
+        font-size:145%;
+        font-weight:900;
+        margin-bottom: 4%;
+
+    }
+
+    .order_detail
+    {
+        border: 1px solid rgb(156, 152, 152);
+        border-radius: 1rem;
+
+        width: 70%;
+        height: 20%;
+
+        margin-left: 2%;
+       margin-bottom: .5%;
+        img
+        {
+            width: 25%;
+            height: 80%;
+
+            margin-top: 2.4%;
+            margin-left: 3%;
+
+            border-radius: 1rem;
+        }
+
+        h4
+        {
+            margin-top: -17%;
+            margin-left: 35%;
+        }
+
+        p
+        {
+           margin-top: -19%;
+            margin-left: 75%;
+            font-weight: 900;
+        }
+
+       h5{margin-left: 35%;}
+    }
+    .line
+    {
+        width: 73%;
+
+        margin-top: 5%;
+        margin-left: -3%;
+        border: 1px solid rgb(153, 147, 147);
+    }
+
+
+    
+}
